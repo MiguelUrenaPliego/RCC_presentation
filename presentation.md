@@ -1293,6 +1293,8 @@ adds exact nodes at breakpoints
 
 # A good relationship with data?
 
+<!-- _class: light -->
+
 <div class="body">
 
 <div style="display: flex; align-items: flex-start; gap: 2rem;">
@@ -1317,6 +1319,8 @@ adds exact nodes at breakpoints
 ---
 
 # A good relationship with data?
+
+<!-- _class: light -->
 
 <div class="body">
 
@@ -1349,6 +1353,8 @@ adds exact nodes at breakpoints
 
 # A good relationship with data?
 
+<!-- _class: light -->
+
 <div class="body">
 
 <div style="display: flex; align-items: flex-start; gap: 2rem;">
@@ -1377,6 +1383,8 @@ adds exact nodes at breakpoints
 
 # A good relationship with data?
 
+<!-- _class: light -->
+
 <div class="body">
 
 <div style="display: flex; align-items: flex-start; gap: 2rem;">
@@ -1402,6 +1410,8 @@ adds exact nodes at breakpoints
 ---
 
 # Look up!
+
+<!-- _class: light -->
 
 <div class="body">
 
@@ -1430,7 +1440,9 @@ adds exact nodes at breakpoints
 
 # How does the world change?
 
-<div class="body" style="height: 100%; display: flex; justify-content: center; align-items: center; margin-top:20px">
+<!-- _class: light -->
+
+<div class="body" style="height: 100%; display: flex; justify-content: center; align-items: center; margin-top:30px">
 
   <!-- Image centered -->
   <div>
@@ -1443,7 +1455,9 @@ adds exact nodes at breakpoints
 
 # How does the world change?
 
-<div class="body" style="height: 100%; display: flex; justify-content: center; align-items: center; margin-top:20px">
+<!-- _class: light -->
+
+<div class="body" style="height: 100%; display: flex; justify-content: center; align-items: center; margin-top:30px">
 
   <!-- Image centered -->
   <div>
@@ -1453,6 +1467,9 @@ adds exact nodes at breakpoints
 </div>
 
 ---
+
+<!-- _class: light -->
+
 <div class="body" style="height: 100%; display: flex; justify-content: center; align-items: center; margin-top:90px">
 
   <!-- Image centered -->
@@ -1463,6 +1480,8 @@ adds exact nodes at breakpoints
 </div>
 
 --- 
+
+<!-- _class: light -->
 
 <div class="body" style="height: 100%; display: flex; justify-content: center; align-items: center; margin-top:20px">
 

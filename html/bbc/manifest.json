@@ -1,0 +1,295 @@
+{
+  "version": "1.0",
+  "tool": "website_one_page",
+  "seed_url": "https://www.bbc.com/news/world-middle-east-64390817",
+  "seed_origin": "https://www.bbc.com:443",
+  "seed_host": "www.bbc.com",
+  "final_url": "https://www.bbc.com/news/world-middle-east-64390817",
+  "final_host": "www.bbc.com",
+  "origin_lock_mode": "host_only",
+  "captured_at": "2026-02-18T20:32:04.097317Z",
+  "base_href_used": false,
+  "base_href_value": null,
+  "budgets": {
+    "max_pages": 1,
+    "max_assets": 200,
+    "max_assets_per_page": 200,
+    "max_redirects": 5,
+    "max_css_import_depth": 2,
+    "max_html_bytes": 2097152,
+    "max_css_bytes": 1048576,
+    "max_asset_bytes": 104857600,
+    "max_total_asset_bytes": 52428800
+  },
+  "budgets_used": {
+    "pages": 1,
+    "assets": 0,
+    "total_asset_bytes": 0
+  },
+  "counts": {
+    "html_pages": 1,
+    "assets_total": 63,
+    "assets_included": 0,
+    "assets_excluded": 63
+  },
+  "excluded": [
+    {
+      "url": "https://cdn.optimizely.com/public/4621041136/s/bbcx_prod.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://cdn.tinypass.com/api/tinypass.min.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://emp.bbci.co.uk/emp/bump-4/bump-4.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://gn-web-assets.api.bbc.com/ngas/latest/dotcom-bootstrap.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/0253/production/_124659500_generic_banner_top.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/17B06/production/_128403079_egypt_mask.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/1FCD/production/_105914180_line976-nc.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/3b9b/live/89a4a360-0b7a-11f1-ae33-8377fd01bd0b.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/3c98/live/7bad9b50-0b6a-11f1-8935-77ca02594f06.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/45c7/live/b0961950-0b42-11f1-b6f7-efa552220867.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/578a/live/83cb6930-985a-11f0-b567-dbb771c68d85.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/72FB/production/_112953492__90021446_test_grey_line_new-nc.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/B2BC/production/_124365754_generic_banner_bottom.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/240/cpsprodpb/cfa2/live/34e0f450-e9f2-11ef-a819-277e390a7a08.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/0253/production/_124659500_generic_banner_top.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/17B06/production/_128403079_egypt_mask.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/1FCD/production/_105914180_line976-nc.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/3b9b/live/89a4a360-0b7a-11f1-ae33-8377fd01bd0b.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/3c98/live/7bad9b50-0b6a-11f1-8935-77ca02594f06.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/45c7/live/b0961950-0b42-11f1-b6f7-efa552220867.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/578a/live/83cb6930-985a-11f0-b567-dbb771c68d85.jpg.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/72FB/production/_112953492__90021446_test_grey_line_new-nc.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/B2BC/production/_124365754_generic_banner_bottom.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ichef.bbci.co.uk/news/480/cpsprodpb/cfa2/live/34e0f450-e9f2-11ef-a819-277e390a7a08.png.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.bbci.co.uk/frameworks/requirejs/0.13.0/sharedmodules/require.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/XlTq9N4VCDkTvCxvmSBYp/_buildManifest.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/XlTq9N4VCDkTvCxvmSBYp/_ssgManifest.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/127-7a32c9fa8ca13d80.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/691-06550ed045b50154.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/905-0080178b74282117.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/981-5dcf1171755415a8.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/framework-331fb39aeba27237.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/main-4205673c4f343b95.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/pages/%5B%5B...slug%5D%5D-d71e9522fc7b8970.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/pages/_app-2c10aad3f4408320.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/chunks/webpack-f9051b1449e0ba00.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/_next/static/css/9c6047137703f6d7.css",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/apple-touch-icon.png",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/favicon-16x16.png",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/favicon-32x32.png",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/favicon.ico",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/bbcdotcom/web/20260205-130046-240c8e457e-web-2.39.1-1/grey-placeholder.png",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Bd.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_BdIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_ExBd.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_ExBdIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_It.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Lt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_LtIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Md.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_MdIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_Bd.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_BdIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_ExBd.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_ExBdIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_It.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_Lt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_LtIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_Md.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_MdIt.woff2",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSerif_W_Rg.woff2",
+      "reason": "cross_origin_blocked"
+    }
+  ],
+  "mapping": {},
+  "heuristics": {
+    "script_src_count": 17,
+    "meaningful_elements": 261,
+    "text_content_length": 12814
+  }
+}

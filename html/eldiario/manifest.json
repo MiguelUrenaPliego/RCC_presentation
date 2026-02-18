@@ -1,0 +1,964 @@
+{
+  "version": "1.0",
+  "tool": "website_one_page",
+  "seed_url": "https://www.eldiario.es/aragon/sociedad/informe-destapa-graves-carencias-zaragoza-movilidad-apuesta-linea-2-tranvia-paliarlo_1_11798661.html",
+  "seed_origin": "https://www.eldiario.es:443",
+  "seed_host": "www.eldiario.es",
+  "final_url": "https://www.eldiario.es/aragon/sociedad/informe-destapa-graves-carencias-zaragoza-movilidad-apuesta-linea-2-tranvia-paliarlo_1_11798661.html?ff_seed=42",
+  "final_host": "www.eldiario.es",
+  "origin_lock_mode": "host_only",
+  "captured_at": "2026-02-18T20:29:11.672800Z",
+  "base_href_used": false,
+  "base_href_value": null,
+  "budgets": {
+    "max_pages": 1,
+    "max_assets": 200,
+    "max_assets_per_page": 200,
+    "max_redirects": 5,
+    "max_css_import_depth": 2,
+    "max_html_bytes": 2097152,
+    "max_css_bytes": 1048576,
+    "max_asset_bytes": 104857600,
+    "max_total_asset_bytes": 52428800
+  },
+  "budgets_used": {
+    "pages": 1,
+    "assets": 68,
+    "total_asset_bytes": 4800326
+  },
+  "counts": {
+    "html_pages": 1,
+    "assets_total": 230,
+    "assets_included": 68,
+    "assets_excluded": 162
+  },
+  "excluded": [
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAACFCAYAAAA96SS8AAAAAXNSR0IArs4c6QAABW9JREFUeAHt20lO40AUxvEiCfMsZsGKG7Bky5E5AxyAJRKsCIMEiHkmuP0v8dIhIYnLbRfd6q8kt4fYr5xflcuxHz3gVEoXOD09Tba3t12lUvlS19e1Lx9ppWwB4Zct3CO+8HvglP1RrewKFN+5JElco9Hw81aPgdYVLZcj8Pz8nFxeXpYTXFElIAEJSEACEpCABCQgAQlIQAISkIAEJCABCUQT0CvlCNTp6+Rkd3e3I4erZEoE/JeXF1ev14UfwbqjioGBAVetVjvwlcPtoIq3QcNOBGvlcCMgd6tCOdxuMtouAQlIQAISkIAEJCABCUhAAhKQgAQkIAEJ/FsCyuFGaC/lcCMgd6tCOdxuMhG2K4cbATm0CuVwQ8Vy7K8cbg60og5RDrcoScWRgAQkIAEJSEACEpCABCQgAQlIQAISkIAEflZAOdwI/srhRkDuVoVyuN1kImxXDjcCcmgVyuGGiuXYXzncHGhFHaIcblGSiiMBCUhAAhKQgAQkIAEJSEACEpCABCQgAQn8rIByuBH8lcONgNytCuVwu8lE2K4cbgTk0CqUww0Vy7G/crg50Io6RDncoiQVRwISkIAEJCABCUhAAhKQgAQkIIE2ASVT2kCKXG00GonF4+Ua5fP1snfXW03TKWH+8fHhDJ1lSq32m/z3UgmV/+8h6eUU5rac4jdHm+bC/w5Vxvc/OztLHh8f3dPTkzs8PPRVrKysuLGxMX9FqOeXof4ZM32P78C/u7tzx8fHfuvw8LB7fX0VfonuHaFtrB8aGnI0APcC9fwOpuI2pL923Pv7u+NmW6lUPDhDzszMjN8m/OKsOyLRu5nApyFsmXUm3XA7yIrbkI73CT0f+Pv7e48/MTHR/Lkp/OKse0ayBy56vBXhm0SJc+Bb0UusSqElIAEJSEACEpCABCSAgH7n5+gH6VNr+qYgcW9vb+78/Ny/KlhcXHTj4+NBnnq3kwPf99o0QUID8K7e3tWEhhJ+qFi6P+/n+X9WvJe/vr72+NPT02xPyFil728yXQHCz4F/cHDg6vW6R7+4uPDzh4cHNzs767NUWUMKP6tU236Wl+U9PcXW23bruSr8njzff7i0tORGR0cdaUImxvzl5WXHTbdarX5/0Ddbhf8NSr9NIyMj/mZLr7eez7b0106/Q798LvwvHNlWBgcHfW/n1w5XAT0ffGuIbFG0148KZPpJ9KNn+JdXzgMXp8gNNx3vgzxrdjCXEBOl9aYRGvDm5iYhZ8mlyJzCb2AbH1v/Yst/2OMfMkAnJyc+FrlQniiJs7q66uf8OUY6BPT9wvZEyu/yvb09Hw8svi/DxcbGRjCcnTZxKKFOHFOzg1kpooAEOhPLFBrCvmxIHeDwBEks4HmwoWOwTrHO0i8m+zFxnL0OsPMJvUm215UH3WLUOBkKQPQMytzcnOOPe/I0DE9/xAHe4k1OTtJDm1l7X0nGf8C3WCzT261R7Q+R+oVq/R40AJPhE+vzKvWX/Z9g9juP9s9rOzs7/kToVemQ4XvI1taWm5+fz4W1v7/vbm9vPTwNwTAxNTXlaAD+Uiuk0FuPjo58jweeeMRYX1/3nYOrIEsBmuGOx/+rq6vmlWMdjgbgPLPGy1Jnln1qVMrJUTETX5h1pjzFjm2f54n13TGc358UjrcJfKafKmmHqHloToJl+3I2Dz0xbq7EoTfxFEgjMITRsDR0SOHYtbU1H4sxn6dJYvMnd9ZZssRL9/U9iatmc3PTg7NMLCaGROqKXZo9HxgmQ7d56AkBDTw4Nrba1ZXnCwJNHGICZujMQ+NxHgsLCx6fuHZfSxsgvnwKW/gTLo3WOoU2Xvv+rbG4OkPB2+PZUNN6423fJ9b6L0B1oYYzDve+AAAAAElFTkSuQmCC",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/png;base64,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",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1062 597'%3E%3C/svg%3E",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 675'%3E%3C/svg%3E",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1268 713'%3E%3C/svg%3E",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1577 887'%3E%3C/svg%3E",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3C/svg%3E",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5156 2900'%3E%3C/svg%3E",
+      "reason": "invalid_scheme"
+    },
+    {
+      "url": "https://accounts.google.com/gsi/client",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://ats-wrapper.privacymanager.io/ats-modules/96382f5c-08c1-4862-a8c6-aadb581efa79/ats.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://cdn.insurads.com/bootstrap/TDDJHSVK.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://news.google.com/swg/js/v1/swg.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/tag/js/gpt.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://pubtags.addoor.net/lib/contags/contageldiario.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://pubtags.addoor.net/lib/contags/metrics.min.js?site=eldiario.es",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/090e88aa-4854-433b-8d91-93562ff37403_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/090e88aa-4854-433b-8d91-93562ff37403_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/090e88aa-4854-433b-8d91-93562ff37403_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/090e88aa-4854-433b-8d91-93562ff37403_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0c2ada7d-8485-49d5-b7fc-db63c606b6a5_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0c2ada7d-8485-49d5-b7fc-db63c606b6a5_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0c2ada7d-8485-49d5-b7fc-db63c606b6a5_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0c2ada7d-8485-49d5-b7fc-db63c606b6a5_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0d91707a-8131-4d5c-94a9-1067209bf38e_16-9-discover-aspect-ratio_50p_1135760.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0d91707a-8131-4d5c-94a9-1067209bf38e_16-9-discover-aspect-ratio_50p_1135760.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0d91707a-8131-4d5c-94a9-1067209bf38e_16-9-discover-aspect-ratio_75p_1135760.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/0d91707a-8131-4d5c-94a9-1067209bf38e_16-9-discover-aspect-ratio_75p_1135760.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/1d6b1b7f-0304-4c72-91d8-fcba982f2655_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/1d6b1b7f-0304-4c72-91d8-fcba982f2655_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/1d6b1b7f-0304-4c72-91d8-fcba982f2655_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/1d6b1b7f-0304-4c72-91d8-fcba982f2655_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/230639da-3c3b-4cb0-a5da-dfed52df336b_16-9-discover-aspect-ratio_25p_0_x2130y401.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/230639da-3c3b-4cb0-a5da-dfed52df336b_16-9-discover-aspect-ratio_25p_0_x2130y401.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/230639da-3c3b-4cb0-a5da-dfed52df336b_16-9-discover-aspect-ratio_50p_0_x2130y401.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/230639da-3c3b-4cb0-a5da-dfed52df336b_16-9-discover-aspect-ratio_50p_0_x2130y401.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/230639da-3c3b-4cb0-a5da-dfed52df336b_16-9-discover-aspect-ratio_75p_0_x2130y401.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/230639da-3c3b-4cb0-a5da-dfed52df336b_16-9-discover-aspect-ratio_75p_0_x2130y401.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/30395d09-4b73-49b4-967f-37404527ab8d_16-9-discover-aspect-ratio_50p_1136688.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/30395d09-4b73-49b4-967f-37404527ab8d_16-9-discover-aspect-ratio_50p_1136688.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/30395d09-4b73-49b4-967f-37404527ab8d_16-9-discover-aspect-ratio_75p_1136688.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/30395d09-4b73-49b4-967f-37404527ab8d_16-9-discover-aspect-ratio_75p_1136688.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/59d9b794-798f-44a7-b3db-b3722a0cd0d5_16-9-discover-aspect-ratio_25p_0_x571y625.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/59d9b794-798f-44a7-b3db-b3722a0cd0d5_16-9-discover-aspect-ratio_25p_0_x571y625.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/5d558a6c-4e76-4868-a19d-c5388b9c4bbd_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/5d558a6c-4e76-4868-a19d-c5388b9c4bbd_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/5d558a6c-4e76-4868-a19d-c5388b9c4bbd_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/5d558a6c-4e76-4868-a19d-c5388b9c4bbd_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/606e847f-2594-40f4-98b9-8b18fa7e792a_16-9-discover-aspect-ratio_50p_0_x1741y1002.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/606e847f-2594-40f4-98b9-8b18fa7e792a_16-9-discover-aspect-ratio_50p_0_x1741y1002.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/606e847f-2594-40f4-98b9-8b18fa7e792a_16-9-discover-aspect-ratio_75p_0_x1741y1002.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/606e847f-2594-40f4-98b9-8b18fa7e792a_16-9-discover-aspect-ratio_75p_0_x1741y1002.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/66c5cd11-000f-4fcd-8eea-a0cbc470b338_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/66c5cd11-000f-4fcd-8eea-a0cbc470b338_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/66c5cd11-000f-4fcd-8eea-a0cbc470b338_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/66c5cd11-000f-4fcd-8eea-a0cbc470b338_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/6ea1e825-a5c8-4dda-bb9f-650236a21ed2_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/6ea1e825-a5c8-4dda-bb9f-650236a21ed2_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/6ea1e825-a5c8-4dda-bb9f-650236a21ed2_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/6ea1e825-a5c8-4dda-bb9f-650236a21ed2_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7882ce4d-e299-4913-8b89-63b413869df8_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7882ce4d-e299-4913-8b89-63b413869df8_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7882ce4d-e299-4913-8b89-63b413869df8_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7882ce4d-e299-4913-8b89-63b413869df8_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7c4f2cb6-f01f-46f3-95ad-85a96199d1fb_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7c4f2cb6-f01f-46f3-95ad-85a96199d1fb_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7c4f2cb6-f01f-46f3-95ad-85a96199d1fb_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/7c4f2cb6-f01f-46f3-95ad-85a96199d1fb_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/84ada894-a88f-473d-90bc-2dd6cac0055d_16-9-discover-aspect-ratio_25p_1136799.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/84ada894-a88f-473d-90bc-2dd6cac0055d_16-9-discover-aspect-ratio_25p_1136799.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8868c81d-8741-4f95-802d-2f79d1b7c253_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8868c81d-8741-4f95-802d-2f79d1b7c253_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8868c81d-8741-4f95-802d-2f79d1b7c253_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8868c81d-8741-4f95-802d-2f79d1b7c253_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8d3a2d45-6094-44d0-a3eb-1e8e47fcd8bb_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8d3a2d45-6094-44d0-a3eb-1e8e47fcd8bb_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8d3a2d45-6094-44d0-a3eb-1e8e47fcd8bb_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8d3a2d45-6094-44d0-a3eb-1e8e47fcd8bb_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8d3a2d45-6094-44d0-a3eb-1e8e47fcd8bb_16-9-discover-aspect-ratio_default_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/8d3a2d45-6094-44d0-a3eb-1e8e47fcd8bb_16-9-discover-aspect-ratio_default_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/926e910f-6305-4bc6-903c-5b935a9f6320_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/926e910f-6305-4bc6-903c-5b935a9f6320_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/926e910f-6305-4bc6-903c-5b935a9f6320_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/926e910f-6305-4bc6-903c-5b935a9f6320_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9af3a13d-df96-4226-99aa-7f141d8eb2a1_16-9-discover-aspect-ratio_25p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9af3a13d-df96-4226-99aa-7f141d8eb2a1_16-9-discover-aspect-ratio_25p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9af3a13d-df96-4226-99aa-7f141d8eb2a1_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9af3a13d-df96-4226-99aa-7f141d8eb2a1_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9af3a13d-df96-4226-99aa-7f141d8eb2a1_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9af3a13d-df96-4226-99aa-7f141d8eb2a1_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9d92071f-24e5-48ce-aca9-d53c8217f8c0_avatar-200-aspect-ratio_default_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/9d92071f-24e5-48ce-aca9-d53c8217f8c0_avatar-200-aspect-ratio_default_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/a20fea3b-db47-42d6-82d6-a2d57cd2e616_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/a20fea3b-db47-42d6-82d6-a2d57cd2e616_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/a20fea3b-db47-42d6-82d6-a2d57cd2e616_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/a20fea3b-db47-42d6-82d6-a2d57cd2e616_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/a20fea3b-db47-42d6-82d6-a2d57cd2e616_16-9-discover-aspect-ratio_default_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/a20fea3b-db47-42d6-82d6-a2d57cd2e616_16-9-discover-aspect-ratio_default_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b1425ccb-20fb-4952-8cf4-c0ccd377753e_16-9-discover-aspect-ratio_50p_0_x185y84.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b1425ccb-20fb-4952-8cf4-c0ccd377753e_16-9-discover-aspect-ratio_50p_0_x185y84.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b1425ccb-20fb-4952-8cf4-c0ccd377753e_16-9-discover-aspect-ratio_75p_0_x185y84.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b1425ccb-20fb-4952-8cf4-c0ccd377753e_16-9-discover-aspect-ratio_75p_0_x185y84.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b23adc4c-716e-404e-adea-365c82c59e06_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b23adc4c-716e-404e-adea-365c82c59e06_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b23adc4c-716e-404e-adea-365c82c59e06_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b23adc4c-716e-404e-adea-365c82c59e06_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b90c9191-e312-4866-b4d4-754ab37a0762_16-9-discover-aspect-ratio_50p_0_x1282y511.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b90c9191-e312-4866-b4d4-754ab37a0762_16-9-discover-aspect-ratio_50p_0_x1282y511.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b90c9191-e312-4866-b4d4-754ab37a0762_16-9-discover-aspect-ratio_75p_0_x1282y511.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/b90c9191-e312-4866-b4d4-754ab37a0762_16-9-discover-aspect-ratio_75p_0_x1282y511.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ba80a73e-883d-4c45-bfbd-036c6ce679cb_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ba80a73e-883d-4c45-bfbd-036c6ce679cb_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ba80a73e-883d-4c45-bfbd-036c6ce679cb_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ba80a73e-883d-4c45-bfbd-036c6ce679cb_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cb17a6c8-142c-49ca-9120-2a233e277c9b_16-9-discover-aspect-ratio_50p_1136758.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cb17a6c8-142c-49ca-9120-2a233e277c9b_16-9-discover-aspect-ratio_50p_1136758.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cb17a6c8-142c-49ca-9120-2a233e277c9b_16-9-discover-aspect-ratio_75p_1136758.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cb17a6c8-142c-49ca-9120-2a233e277c9b_16-9-discover-aspect-ratio_75p_1136758.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cf668166-1026-4e44-92ba-73875697be66_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cf668166-1026-4e44-92ba-73875697be66_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cf668166-1026-4e44-92ba-73875697be66_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/cf668166-1026-4e44-92ba-73875697be66_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/d5f5e7eb-0644-44b0-8ae2-cb70eb1015b0_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/d5f5e7eb-0644-44b0-8ae2-cb70eb1015b0_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/d5f5e7eb-0644-44b0-8ae2-cb70eb1015b0_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/d5f5e7eb-0644-44b0-8ae2-cb70eb1015b0_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/dc66e2da-5946-4416-b2f4-b33cd4c9bf5c_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/dc66e2da-5946-4416-b2f4-b33cd4c9bf5c_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/dc66e2da-5946-4416-b2f4-b33cd4c9bf5c_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/dc66e2da-5946-4416-b2f4-b33cd4c9bf5c_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e19acf7e-0fda-42b4-b114-d8db840b7748_16-9-discover-aspect-ratio_25p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e19acf7e-0fda-42b4-b114-d8db840b7748_16-9-discover-aspect-ratio_25p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e1e5a2c6-1805-450e-8753-466b8b962704_16-9-discover-aspect-ratio_50p_0_x919y615.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e1e5a2c6-1805-450e-8753-466b8b962704_16-9-discover-aspect-ratio_50p_0_x919y615.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e1e5a2c6-1805-450e-8753-466b8b962704_16-9-discover-aspect-ratio_75p_0_x919y615.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e1e5a2c6-1805-450e-8753-466b8b962704_16-9-discover-aspect-ratio_75p_0_x919y615.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e5b4cd3f-0278-47ae-910b-64bc0222acfa_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e5b4cd3f-0278-47ae-910b-64bc0222acfa_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e5b4cd3f-0278-47ae-910b-64bc0222acfa_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e5b4cd3f-0278-47ae-910b-64bc0222acfa_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e6f6d706-00a0-492a-98dd-41eb8dfd3f7c_16-9-discover-aspect-ratio_25p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/e6f6d706-00a0-492a-98dd-41eb8dfd3f7c_16-9-discover-aspect-ratio_25p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/eb2da209-8ab4-4206-8a39-24a2b32c9573_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/eb2da209-8ab4-4206-8a39-24a2b32c9573_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/eb2da209-8ab4-4206-8a39-24a2b32c9573_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/eb2da209-8ab4-4206-8a39-24a2b32c9573_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/eb2da209-8ab4-4206-8a39-24a2b32c9573_16-9-discover-aspect-ratio_default_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/eb2da209-8ab4-4206-8a39-24a2b32c9573_16-9-discover-aspect-ratio_default_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ec294044-0dd2-4a8d-92c8-803572338005_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ec294044-0dd2-4a8d-92c8-803572338005_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ec294044-0dd2-4a8d-92c8-803572338005_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/ec294044-0dd2-4a8d-92c8-803572338005_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fab35a28-c404-4b00-9cca-a436e5ceda5f_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fab35a28-c404-4b00-9cca-a436e5ceda5f_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fab35a28-c404-4b00-9cca-a436e5ceda5f_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fab35a28-c404-4b00-9cca-a436e5ceda5f_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fc55143c-e463-45bb-aa66-36efbcd90604_16-9-discover-aspect-ratio_50p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fc55143c-e463-45bb-aa66-36efbcd90604_16-9-discover-aspect-ratio_50p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fc55143c-e463-45bb-aa66-36efbcd90604_16-9-discover-aspect-ratio_75p_0.jpg",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/clip/fc55143c-e463-45bb-aa66-36efbcd90604_16-9-discover-aspect-ratio_75p_0.webp",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/statics/public/Components/eldiario-components.es-production_20260112.js",
+      "reason": "cross_origin_blocked"
+    },
+    {
+      "url": "https://static.eldiario.es/statics/public/sibbo/prebid_eldiario_es_20260217a.min.js",
+      "reason": "cross_origin_blocked"
+    }
+  ],
+  "mapping": {
+    "https://www.eldiario.es/app.h-b901f1b5fdfd8ddada21.css": {
+      "local_path": "assets/99068308d69eb3c899809824e1f2a1ab6c45031ef59ca444f4d7c832dc8681cf.css",
+      "content_type": "text/css"
+    },
+    "https://www.eldiario.es/apple-touch-icon.png": {
+      "local_path": "assets/6f8097dcc5a0b9f564bf7778f47698551e02cfb8ba9807cdf937334ba232f0d7.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/assets/font-awesome/webfonts/fa-light-300.h-9b8974e91ea5d8d773371b196f30c70a.ttf": {
+      "local_path": "assets/468125cc69915f748fa631726e84a97f48c26ef99839c016f8598a87e1731f63.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/font-awesome/webfonts/fa-light-300.h-a3702ff5a941f1099e82213464232e81.woff": {
+      "local_path": "assets/9d69cd77eb3da84ea844f235f98b7e5b499f722effde8f42453e57e2b0a347a8.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/font-awesome/webfonts/fa-light-300.h-b076f7ccd174eeb6ea55b9857c50f37c.woff2": {
+      "local_path": "assets/448f45a0ba44410ee2f4a475d56719fd1531dcd274876d8e3ef96b4cf01125e1.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/font-awesome/webfonts/fa-solid-900.h-08b3d092a62fa2ce227ba45d794e3de7.ttf": {
+      "local_path": "assets/5313ca70db4067546ba4a05eccd69f837e31a43920850134d87275799f349705.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/font-awesome/webfonts/fa-solid-900.h-a265bbc20e40ae6e6b45e0b78ab08c41.woff2": {
+      "local_path": "assets/88876fcd5eb71de865d889ea63df11b023ef1d1365124305c2708f61cbb04339.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/font-awesome/webfonts/fa-solid-900.h-c81f398359cea101e48978f6a03079e0.woff": {
+      "local_path": "assets/fb6f39bbe03b3cfc6fbea8bac773e436d175c8c604505e0394947ceb242c7dcb.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Bold.h-3615789c30db97c814190ccfa6c1ed55.woff2": {
+      "local_path": "assets/0dda6db89330176afcd488231a80126290043c11acbbea1242f558d9d9e957fb.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Bold.h-734ceca7f7fe2cc667eeb487ed70ba12.ttf": {
+      "local_path": "assets/5abf844d9cfb5053ab4d899b1bc30098d96c5da4c2a141508862861114169b53.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Bold.h-f35a424c3c9fb59d956d3b708e7e6aef.woff": {
+      "local_path": "assets/e0158508c2ffa30f0603ea9dea470211ed3911dbe34aec586970ebcbaac718b2.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Medium.h-378bfb3cf7995335e8e0d663fbeae6c1.ttf": {
+      "local_path": "assets/0382adee15b2507cc4a56155e7b3026e1bc6e1d800cb62a2f43daaffefb8b7dd.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Medium.h-addbb0907d809821f1ae89c0069f7492.woff": {
+      "local_path": "assets/0c4b2110f8bbf5d5aae9193dd3d77a6aee7d9e06e807fb6d1a31fac1ff9eb10b.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Medium.h-f96b7afbcc61e48e37dd5d9f576b9216.woff2": {
+      "local_path": "assets/6a9349e67ba8908ca313a09641b88dc898ac5fa18d5fe1e26968014b45d8f1c6.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Regular.h-42fb8ae4873d46bb66d7edbb69aed682.ttf": {
+      "local_path": "assets/c6578658238e18e6d01b647f6608c6771f78f91ad1902b509ed186fc024362a1.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Regular.h-6f401e5169eb8174d1b07b057fed468f.woff": {
+      "local_path": "assets/2f6a2beb360da15c8cb17d5f7b9cffccd0117dc534dda3231525de9cd826427e.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-Regular.h-95e287f64028f2809df86f87c5a78858.woff2": {
+      "local_path": "assets/c751b46d553d59e5d76bca582f07f4a7e6eaf211674dfdc87c299127a1475d1d.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-SemiBold.h-86d2fc7ed1d9c2749309064770d56fe2.woff": {
+      "local_path": "assets/6847ac4ba350508a9941cfc99c021d180072d72065eb6d0657c91abb50ea4aab.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-SemiBold.h-dd6ceda8c575380380113e8d0dfcf9a3.woff2": {
+      "local_path": "assets/3a4fce7ca1145cd7decd397eaa55f14490e0652631d2287f9329752dcffa9ebd.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/EncodeSans-SemiBold.h-f5f542c3b01be8fe9b32697c2412062d.ttf": {
+      "local_path": "assets/c444c32c718bfe92cf1c4983297ecefc29884cfce7cc77e11bfbef30bc831a8a.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-Bold.h-373c85a21d9c4a9d9e61591059b3cd10.woff2": {
+      "local_path": "assets/e0e77a8792b5eb2c5e969468e549b33fb22db5b31b691d0507befa03cf2b9518.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-Bold.h-7ed6fa3ab2b76731787b4c9255656fd6.woff": {
+      "local_path": "assets/8631dce73e436cd23a4fe39ae515b7402d99eb180c5c8ab308b557f7923f5b5b.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-Bold.h-b925997e75081a8c2012847cb48761a4.ttf": {
+      "local_path": "assets/a6b57b496e07a2bdbb4dd7575bba2e6a4f1416a65f925f8f437e37415dfb389a.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-BoldItalic.h-771057d95152a8213475d1bb5d8bb47c.woff": {
+      "local_path": "assets/54cf19eb312e0d18f171e62b0b4d65830b0b6f52480a0104875727b5e0c58bcb.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-BoldItalic.h-b98b070470f37b2313a41cdd0677161e.ttf": {
+      "local_path": "assets/853d522bffb5b696de68ea93d1a9f00f7433aa48bcd4699cf928f3a0053272d8.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-BoldItalic.h-f2d217517f506cf86adb408540c6f560.woff2": {
+      "local_path": "assets/a429b126cdbd703740b86b709f91be46c0419cd800f01ece104597d04d3def1e.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-Regular.h-12ff745a9d7aab7266d0cc6cefee381c.woff": {
+      "local_path": "assets/a6b5b9403013ea3eeea164dff9d342ca9fbf693c511dcd583cd699941b1f8c2b.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-Regular.h-4a529b67b31a48a569e13a0bb13ff331.woff2": {
+      "local_path": "assets/35bffdf18e7da3040e05ba2c75c0c5670c61cfbaaac3c566bbf6b9bd2bac1112.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-Regular.h-e859942ef08e271ffeed71b2ae8a758a.ttf": {
+      "local_path": "assets/5359ef60494ab48a2c7d1ccd3e452a6b3621a892ba7ae8acbae8d19aae8a9754.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-RegularItalic.h-1f6e903f1dca9d776f68a31982c9154e.woff": {
+      "local_path": "assets/3ea1ccd2d6a71bc128feb61bd4236c88ab26962e6d25ee00c93ddaf8d258d619.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-RegularItalic.h-5b674da58685cc02bbbd43ed278f2e30.ttf": {
+      "local_path": "assets/3dff3d386203f99b387c9d6316306909adf25dff53226264cc5cfb3fbfeac0d0.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/fonts/Sanomat-RegularItalic.h-fa676aa644d06cab885a24e8e85afc78.woff2": {
+      "local_path": "assets/f0d53374a80497873c935b3f84c0076c1a67a8a85b7b62138aaddd3f8790c420.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/icomoon/fonts/icomoon.h-132b8145076310a22f734d6658a5bc11.woff": {
+      "local_path": "assets/8ae7912464b81636f009b927375416c509b8474a0b7518fde3b1f4c289bab4fc.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://www.eldiario.es/assets/icomoon/fonts/icomoon.h-50d2e43b0bd19dc0f7ad67fa73787e3b.ttf": {
+      "local_path": "assets/71c46c8d4977bb4699241d0793d070f0556305385e8fccfec63bfc20e6c8b6c2.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://www.eldiario.es/assets/img/header-menu-icons/FAQs-HOVER.h-fe885b07515143a2c31d282e9ca78867.svg": {
+      "local_path": "assets/9feb20a92164c3926ce70bc37824d894c9e148a5bdf5f2b96294c9f37ce4b056.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/header-menu-icons/contacto-HOVER.h-a92ba406ec80432c7278de486f6771ea.svg": {
+      "local_path": "assets/24f8a14db1bd6076340b314ecfa0f93b59fba3ad67c1bddb27865e21d1207d54.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/header-menu-icons/ed-responde-HOVER.h-0287d22f47377e75169fa8a6457fa2f2.svg": {
+      "local_path": "assets/3ea6de62ba8377fa1f4b15e82febefa84bc977c8a8f638ca497a1f2d254ff015.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/header-menu-icons/el-equipo-HOVER.h-f81cc3bbdf9a837320ceccc7c2fd9a75.svg": {
+      "local_path": "assets/6a1177d810e622d03cef1a5366bd518a183db0e0af02774b9403d3587b5b946a.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/header-menu-icons/filtrala-HOVER.h-6a6320beef3582005a4c203cd4719842.svg": {
+      "local_path": "assets/adc65d9bc04e2a3d0ca885f91c9936460ee9cc335ac44cf59711601527f9f5bd.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/header-menu-icons/que-es-HOVER.h-8c637d876d133862d5e99dcf4d81ca74.svg": {
+      "local_path": "assets/11c59e7bcb17f6bc7903a0f8f1a213456d79a562dcb8eed768ec520ce429c1d0.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/svg/lightbox-close.h-1ba77a8632efe8263e0e9f287548f3b7.svg": {
+      "local_path": "assets/c1ab683f1da4d3a6dd4e16eb31b82fa750f3fde6b6df0abf2d0b862f6c64a64c.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/svg/logos/eldiario-logo-1c.h-622c6e16286cebdfec93136ca73a79c3.svg": {
+      "local_path": "assets/f60f93b31b7ee9adbf6665e4c6a9d9c58d7e64030244325f7a7d9e42f0a13a29.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/svg/logos/eldiario-logo-2c.h-38513507e0c5c2f1f03ae3ccea087019.svg": {
+      "local_path": "assets/0ebbfa76568a5c0fc0827b918052fd9b0aa519a2328641af8bb9958c21a5b78d.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/svg/logos/eldiario-tagline-2c.h-129fb361f1eeeaf4af9b8135dc8199ea.svg": {
+      "local_path": "assets/d0fb5de1f9c75b082cab656868271e67390e47eeca107b6f60770fb6d45e534b.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/assets/img/svg/logos/eldiarioar-logo-2c.h-df0d2f9aeb6b327c0792c51cc80e41fa.svg": {
+      "local_path": "assets/a43a86e46c9ca56ee63bdb9e74eff421d340a01fa3c5036e1f33dbd3d835bb9b.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/close-icon-gris5.h-6ba1a85bae96643c0fdac7d16ba1d428.svg": {
+      "local_path": "assets/0f5b1f4bba581511e8aed9eb41d30bcb11dd9a564d7b7b92169fb105a5a58b91.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/css/typography.h-511959eb3213134986f716f044f74262.css": {
+      "local_path": "assets/e493c58f8672aa0d4faef37174da230b32eb6b0630e539ee9fb961881db72c8c.css",
+      "content_type": "text/css"
+    },
+    "https://www.eldiario.es/eldiario-icon-black.h-64702f947747ed6c415d2454b7ae3e9e.png": {
+      "local_path": "assets/07fe08fa0f91dc7e7f46a3179391887764f1e2ede80305c458f7568a79bb5ca7.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/favicon.png": {
+      "local_path": "assets/36a31d04dfed820cd89498c1ec3c1c7e14e99af65529909ae4ed62c15db10c72.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/img_dotted.h-6d53b375a06e4ff135c5efc39424d343.svg": {
+      "local_path": "assets/ee998fa12fd66524d63ea4c65759a8d67921c4c579172069c8cbaabfc25b45db.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/img_dotted_azul-Eldiario.h-51da0840b4186b25764ba6b8be6fabe6.svg": {
+      "local_path": "assets/110303c4e206e3d99c544b0381ebd0ce8157f8072a79256da9805cab53971b65.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/img_dotted_azul-Relacionados.h-c20f4db2127fae5f1950a657c248c1c6.svg": {
+      "local_path": "assets/68ad413ba39190ee0f87e771284d0411480d45f4178619da5613bd968cd2c306.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/img_dotted_black.h-880abde475b393927f0b16b95c1a325c.svg": {
+      "local_path": "assets/d4b00116cc4539e0e28809f05ed02202a0aafa6b4f9cf21b10ac440f081db244.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/img_dotted_white.h-137cf4147859e6428c9c8e09c8380038.svg": {
+      "local_path": "assets/be80beb41b88813b87b70b011a418f44128e007e119e1fd85be94273103a0a93.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/last-minute-icon.h-0e8a933a47c2022d9b258da96836ab70.png": {
+      "local_path": "assets/eda9466ca42573bb9378a28d3263de353c4f91dc57495e20b95c32d6528b084e.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/live-icon-politician.h-9e1e414f848e444ccb6c31d5cc0f555d.png": {
+      "local_path": "assets/b2bd0f248bb459b3a73cdff69e2a743b765d45372f168193c75ce15875ec3ef1.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/live-icon.h-fc0b9d418a07fd44608d433ee4f20078.png": {
+      "local_path": "assets/9185c135f04e9d2d0a5f74b0b2e20524c43465b81a5ed3f54ee5fb93cca8aa51.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/owl.video.play.h-7f01b07148f205f6e8258e92bbf652d9.png": {
+      "local_path": "assets/0436045686fddf10ccbbe2568e0cbffb457e7de7d43d1115c0056e81e97149ff.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/partner_welcome_bg.h-b1335a9f74a94b96afaaf14daeb0ebd6.png": {
+      "local_path": "assets/28ab1f7b085287209280d492032cf9c8f411fa31d4b8170a6bd5b8f4751d1e99.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/quotes-2.h-95256b5a3821c5cdbe7919faba14938b.svg": {
+      "local_path": "assets/b3de315fce625777e1eb061cb478644aefbcf800b12b7cd94e36841c2afcfe49.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/quotes-elbierzo.h-e6de8ee1727657eb18199d63ad74e791.svg": {
+      "local_path": "assets/ffe7ae7ae6b72d678e69e91e31fcbcabbe23fc1c08dc4a4db3719642891602c1.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/quotes-ileon.h-dfad079bec8a52254a3af02b70bc7ac0.svg": {
+      "local_path": "assets/1a552c9e2b1a5e1e5a06d6fabaaeef272d33f3fe1420cb5f983c0d24f2726916.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/quotes-politician.h-fc8c6d9cf7976dff28e3bbc01b2d53ea.svg": {
+      "local_path": "assets/dab151cae07baf0b53be9750d9c1787df1ceb1ee5433e4d27147d051d4782447.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/quotes.h-696984e9df3bc25efe0a0db3a6dd6a2a.svg": {
+      "local_path": "assets/209368d4f29a8ab272bfcf2911dbcf66e624f7635e0f03878c2ac03f22666ee0.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://www.eldiario.es/smartphone-icon.h-194bd3bd348345578f9e73eaa8d03634.png": {
+      "local_path": "assets/68cd493a45fb134ef6c36bf63ca7bafa38c46bd94a3ef30491b384f304eee810.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/stripe-background.h-bf2dccafd126500be2791c1af6996f20.png": {
+      "local_path": "assets/7fda37aac0e35876d9df0a8d9f073ea8386fb8e982baedabd787ae012f9d68bf.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/stripe-background2.h-cf988a68dfb68a677010a6f2df49e8ff.png": {
+      "local_path": "assets/45bb063050cb88195c7d55b871970785f8953442e883de610611df5b5fb04886.png",
+      "content_type": "image/png"
+    },
+    "https://www.eldiario.es/zoom-icon.h-c507cbebf5f2d8cae49abbcf402e84f7.svg": {
+      "local_path": "assets/c237bac9c836d689b3d99687a6175129a43ca4df0d87ac91ab3e6c8959740d52.svg",
+      "content_type": "image/svg+xml"
+    }
+  },
+  "heuristics": {
+    "script_src_count": 18,
+    "meaningful_elements": 397,
+    "text_content_length": 14427
+  }
+}

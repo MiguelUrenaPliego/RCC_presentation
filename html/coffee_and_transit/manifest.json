@@ -1,0 +1,320 @@
+{
+  "version": "1.0",
+  "tool": "website_one_page",
+  "seed_url": "https://dusp.mit.edu/events/fall-term-2025-biweekly-coffee-transit-seminars",
+  "seed_origin": "https://dusp.mit.edu:443",
+  "seed_host": "dusp.mit.edu",
+  "final_url": "https://dusp.mit.edu/events/fall-term-2025-biweekly-coffee-transit-seminars?ff_seed=6",
+  "final_host": "dusp.mit.edu",
+  "origin_lock_mode": "host_only",
+  "captured_at": "2026-02-18T20:34:47.056008Z",
+  "base_href_used": false,
+  "base_href_value": null,
+  "budgets": {
+    "max_pages": 1,
+    "max_assets": 200,
+    "max_assets_per_page": 200,
+    "max_redirects": 5,
+    "max_css_import_depth": 2,
+    "max_html_bytes": 2097152,
+    "max_css_bytes": 1048576,
+    "max_asset_bytes": 104857600,
+    "max_total_asset_bytes": 52428800
+  },
+  "budgets_used": {
+    "pages": 1,
+    "assets": 68,
+    "total_asset_bytes": 2814952
+  },
+  "counts": {
+    "html_pages": 1,
+    "assets_total": 69,
+    "assets_included": 68,
+    "assets_excluded": 1
+  },
+  "excluded": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-0302HMZBJ8",
+      "reason": "cross_origin_blocked"
+    }
+  ],
+  "mapping": {
+    "https://dusp.mit.edu/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png": {
+      "local_path": "assets/42f3fd7ecbd1e18e5e9c5cbbc2ba9ce4d81a388258a81833d38819a1406ff48d.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_555555_256x240.png": {
+      "local_path": "assets/9dab1725ee38e87989a48796505748157d0238ac72c25a072f5162aa61e2da06.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777620_256x240.png": {
+      "local_path": "assets/91e1ea5f253e72e2e9402cff2bb58fa98b5faa49f9ded999c760013b94ead7f8.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777777_256x240.png": {
+      "local_path": "assets/943d9bc18134619d37406debd81636b63881363a019513c1d6e6cb13b5c5fb30.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_cc0000_256x240.png": {
+      "local_path": "assets/6efc1db612130b63222e0f6bf54d37392c3f2bdb2c10ba50f5d0f1e14d63af61.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png": {
+      "local_path": "assets/6d81fc3fac3b17a25f4ef3eee1394642d38b1adba5c7442acef3b3c8b045cbe7.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/modules/contrib/extlink/images/extlink_s.png": {
+      "local_path": "assets/00ddf2344a9d17d28e8e3ed8754effd463235ad9a4d5ef6d78d1065cabfe7638.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/sites/default/files/css/css_B3Ztfy_YtT76lq1Cb55YfP1cN4zSRMyQLskJfnddeFY.css?delta=1&include=eJxVjuEOwiAMhF8Ix-P405TRMFyhhAPdfHqJczH-ab679nJ1hAgbRB3JBW2XmIOZhYDdOgKfnBigwDh1Vj92Wtn62gvJRHfa_gwfSTQcVtaaSOKLDW9tVKzn0VeaoBqEbzPYHjjoSo1HrK6mUKVQqSw4cz9n6rl0JxELe4MdjdPx-CPyE_Yzp6S-C78BNbhbvw&language=en&theme=basis": {
+      "local_path": "assets/0be175be0135e9045c2d5b988bd87e2bc0a7d3a054f63e37d4dad1fe572694fd.css",
+      "content_type": "text/css"
+    },
+    "https://dusp.mit.edu/sites/default/files/css/css_TzmfqKM575nLO3SxuDT7C3RvTmlpuhYl7AfdBy4Dkmo.css?delta=0&include=eJxVjuEOwiAMhF8Ix-P405TRMFyhhAPdfHqJczH-ab679nJ1hAgbRB3JBW2XmIOZhYDdOgKfnBigwDh1Vj92Wtn62gvJRHfa_gwfSTQcVtaaSOKLDW9tVKzn0VeaoBqEbzPYHjjoSo1HrK6mUKVQqSw4cz9n6rl0JxELe4MdjdPx-CPyE_Yzp6S-C78BNbhbvw&language=en&theme=basis": {
+      "local_path": "assets/af2fddc301ff2cba1fab58be9e8a112ecf1f58374663302e7b7c48640ac2625c.css",
+      "content_type": "text/css"
+    },
+    "https://dusp.mit.edu/sites/default/files/social-media-icons/Bluesky--Streamline-Simple-Icons.svg": {
+      "local_path": "assets/c404faa4c459cac1e29b32ac2a470b49ba35d58d51b149a697e5d197afc1652d.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/sites/default/files/social-media-icons/X_logo_2023_original.svg": {
+      "local_path": "assets/0943112e408623cb6438bddc2d45d0999aacdc849b28e06c8a6b610c2dd29f44.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/sites/default/files/social-media-icons/facebook.svg": {
+      "local_path": "assets/fdf44c84e33e64332bb97121e566eb096f411850877443b97c310e598ef10e72.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/sites/default/files/social-media-icons/instagram.svg": {
+      "local_path": "assets/fea32efefa901ef8406bee583dcea828fc0871ca38f7227475fc8d6a520da9dc.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/sites/default/files/social-media-icons/youtube.svg": {
+      "local_path": "assets/87b18f50b21e8e3e68778d553e17395f44f3d18bcf9d664f852e9a7d515a6c10.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/sites/default/files/styles/large/public/event-images/carry-coffee-1491929015.jpg?h=9be8206f&itok=VCjGKBHL": {
+      "local_path": "assets/3631cc0b8d290735048d0ea199177e31b7ff500c5f6ecb8f557c3afa074dfe52.jpeg",
+      "content_type": "image/jpeg"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0": {
+      "local_path": "assets/7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.bin",
+      "content_type": "application/vnd.ms-fontobject"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0": {
+      "local_path": "assets/ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0": {
+      "local_path": "assets/aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.bin",
+      "content_type": "application/font-sfnt"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0": {
+      "local_path": "assets/2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0": {
+      "local_path": "assets/ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/medium-italic.woff": {
+      "local_path": "assets/18b25510977f048db5b9af1eee93ce5c3d480bceef9181712d5fd4c1d1a8bc1c.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/medium-italic.woff2": {
+      "local_path": "assets/56afc584ef397e00888442d9d0f33a8a409327e45249703b2c4164a89af3f96d.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/medium.woff": {
+      "local_path": "assets/feb020838c1b86e7155b30625d5dc3dc3b17b099f4751e84d97f1f3a79c81fc7.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/medium.woff2": {
+      "local_path": "assets/8d5e33f600c0ecc991882f11e8e9b18aeee7943c65a801f1d58c6673f170ea59.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/regular-italic.woff": {
+      "local_path": "assets/85118fc155b50f21547a90491c15e7a0ee5648dcc184ab29e6ae92e856c4e08e.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/regular-italic.woff2": {
+      "local_path": "assets/b7f6dac42a9046e9a686e5cd4e50b9e1bed7d0d319a403858278e40142517715.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/regular.woff": {
+      "local_path": "assets/70bdc42652c32954ec7f33ae655a9e6b1b84097514b78eede212d39e723111c7.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-alpina/regular.woff2": {
+      "local_path": "assets/2b6c17be46eebbc44e3942fa299b99b249136556a86d0997f677abd61d5296d6.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/bold-italic.woff": {
+      "local_path": "assets/0f98fa0f301d95adab25fefa0678aac577b0d16f10bed715829bb1c53d842b46.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/bold-italic.woff2": {
+      "local_path": "assets/915de75d17cdaf7332db91d757e9da3dcc4403fe3cb1e23567a27a7ef87b3276.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/bold.woff": {
+      "local_path": "assets/766eae386b29b9bedd66ede5ce9dd8a0f6f27a1b1c8aa0686c5718ad17e2a0a5.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/bold.woff2": {
+      "local_path": "assets/d386c658b163a28489e270020f1ee8ad633903a4c08e8907ec4400f1783d60ed.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/regular-italic.woff": {
+      "local_path": "assets/2e74faf527d5910ad847287be1049f4e4c39bfd19d56eb953c7dba1d7bc8d4a4.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/regular-italic.woff2": {
+      "local_path": "assets/8034e51ed7f8572633f40b60fe18e76edc776b2a0093cd135817a64e1877aacb.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/regular.woff": {
+      "local_path": "assets/8367466383e79603d8e6ea9b62e913e154d8c93c1355ca7977567d1002fbc0c6.bin",
+      "content_type": "application/font-woff"
+    },
+    "https://dusp.mit.edu/themes/basis/css/fonts/gt-america/regular.woff2": {
+      "local_path": "assets/e5f8894e0a3782011458aa367e933dfad504cca7c5b6ec532c612fe114e9a37c.bin",
+      "content_type": "application/octet-stream"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/burger-inner.svg": {
+      "local_path": "assets/5be4e45f22c767bb0f7896981c61813afd6880972d2785e4a941826b4ae332e5.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/burger.svg": {
+      "local_path": "assets/dfd9a363f5e633332b98091f062eaf14abd477abf3ef29b25a1d128d3aefe6f5.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/checkmark.png": {
+      "local_path": "assets/d42e61303a6da84b895edbb1fba04619570f7bec329afac5c4455df5274aea3a.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/close-black.svg": {
+      "local_path": "assets/afe50c14f2ac19351b317ed4f893e20f5393e94b270d95ee29e0a1eee84307a1.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/close.svg": {
+      "local_path": "assets/d624a70c69bc120f5edf04c9d4fd0645793d8f893dc08c0cec1964137add9208.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/filter-list.svg": {
+      "local_path": "assets/7449a3ad0fb762c0b41325424bb3d97e49bf4afd812bbdac3b19ad1c73b1416a.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/load-more.svg": {
+      "local_path": "assets/37f410d384eeedb2f16f958c733c5d69f41b7c36b18f0218b7b8c79f3d017cef.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/menu-minus.svg": {
+      "local_path": "assets/c093f7a77689a35b4adea44e3ac40ff06e63a35a1ed18397ca020ba002cee05f.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/menu-plus.svg": {
+      "local_path": "assets/f892240a882e99c5ef46b3cd6e9bcb5856399e5057103606b59e38e90bc32141.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/minus-red.svg": {
+      "local_path": "assets/5568a9e62e726db1c64621a67caf85d2d3adfe84c604154507433d399cb69487.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/plus-red.svg": {
+      "local_path": "assets/bad4e2f1e366d8f0f6f3ccde2e5244b91e82215cb52d489f1f349d02c645a8b1.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/search.svg": {
+      "local_path": "assets/13c41b4794e0702ab9d7d96b772c5d6470d7d87b593c8b586d8170544c323725.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/slider-arrow.svg": {
+      "local_path": "assets/cbda10c670caea09761847b1062e6b0a23efbef0a6ce57e1fac018e882e9ff0c.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/css/images/thin-arrow.svg": {
+      "local_path": "assets/14f9209abcc815487ee92e7c838b0f8e87adf25c05b9a744b5f77199057b871a.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/favicon.ico": {
+      "local_path": "assets/6d27d37a515c3498aa71f8265d21cadc50ca63eb321e223386d48fe87ec7c552.bin",
+      "content_type": "image/vnd.microsoft.icon"
+    },
+    "https://dusp.mit.edu/themes/basis/images/logo.svg": {
+      "local_path": "assets/d7f786800196bb578b359b4bacd341e4b0bcb278a951a130ffde664fb45e6b28.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/images/mit-logo.svg": {
+      "local_path": "assets/db83701d265cb2b2ca7ca58a9397e47456a62cf48b5573e5d3cfa97f387897dc.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/images/sap-footer.svg": {
+      "local_path": "assets/cf2205741ecb123c9d08eee6c9961118e2645f3a69e1e85b1ee97180f912a4ce.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/basis/images/search.svg": {
+      "local_path": "assets/cadfd7cc3e40c1610bcf9b90f87bbada0c824b7f54d179690d909755ed66fab4.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/classy/images/icons/ee0000/required.svg": {
+      "local_path": "assets/1107824fee57311554e87b7ebf3da2f518124457e2b0df8bfdd22870dfbb2548.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/classy/images/misc/feed.svg": {
+      "local_path": "assets/be2c33eeea9e761795209e52fa6624ba7871bbc87a7d7e10b0a689e11c209790.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/classy/images/misc/help.png": {
+      "local_path": "assets/667108875a645588c95866ccbac0840c3b22c3a45c1c49ac5d84a3c28d16b031.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/themes/contrib/classy/images/misc/menu-collapsed-rtl.png": {
+      "local_path": "assets/20d0ca675e353c3f85847053786b6299eabb11fa4ecf15345557638dfc463be5.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/themes/contrib/classy/images/misc/menu-collapsed.png": {
+      "local_path": "assets/bf38e36e83c03851ef6ad378a251217256a9a42547beea0d57fcbb8031241034.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/themes/contrib/classy/images/misc/menu-expanded.png": {
+      "local_path": "assets/71044970e802b0cf12ff5cb2e20a5910192e473a2968385f99c2987d3a4d0231.png",
+      "content_type": "image/png"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/icons/73b355/check.svg": {
+      "local_path": "assets/18eb607df3924ebaa3eb4994c8cf257458b74afabf4ab5ce921e8337cabeb254.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/icons/787878/twistie-down.svg": {
+      "local_path": "assets/bd1e4cb00a3a6d35243b268256dc5e9f85985512c3c579b7e21d06ac7a941366.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/icons/787878/twistie-up.svg": {
+      "local_path": "assets/a143f3c403b50118cfae79e1f9f3ed3c9e4749c5d033449c9121ceaaf2ece49b.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/icons/e29700/warning.svg": {
+      "local_path": "assets/8000f5642f52ebc87bf6a6f444d9600f7ade79f79febc01212f465acfa52a7d7.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/icons/e32700/error.svg": {
+      "local_path": "assets/d665da63811ead02f6df6ac2ce1db95dbd8969fc5dee014f905508d0e3d47e9b.svg",
+      "content_type": "image/svg+xml"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/loading-small.gif": {
+      "local_path": "assets/b8a9d1a6b4ef69cff6a610ed865393208b7ade94a5199517a7b8c2fb166beda6.gif",
+      "content_type": "image/gif"
+    },
+    "https://dusp.mit.edu/themes/contrib/stable/images/core/throbber-active.gif": {
+      "local_path": "assets/062268e4f6a4adede833476d862fe1dd4cf78f4d147737324922bc269f502a62.gif",
+      "content_type": "image/gif"
+    }
+  },
+  "heuristics": {
+    "script_src_count": 2,
+    "meaningful_elements": 68,
+    "text_content_length": 2243
+  }
+}

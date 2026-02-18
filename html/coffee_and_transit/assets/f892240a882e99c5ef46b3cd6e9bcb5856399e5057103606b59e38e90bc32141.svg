@@ -1,0 +1,4 @@
+<svg id="ARCH-menu-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <line id="menu-line" x2="16" transform="translate(8) rotate(90)" fill="none" stroke="#0f0f0f" stroke-width="1"/>
+  <line id="menu-line-2" data-name="menu-line" x2="16" transform="translate(0 8)" fill="none" stroke="#0f0f0f" stroke-width="1"/>
+</svg>

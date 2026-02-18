@@ -195,7 +195,12 @@ $$
 <div class="body">
 <div style="flex: 1; display: flex; justify-content: center; align-items: center; font-size: 1.5em; text-align: center; margin-top: -80px">
 
-  <img src="figures/eldiario.jpg" style="height: 600px; width: auto; object-fit: strech;" />
+  <iframe
+    src="html/eldiario/index.html"
+    style="width: 100%; height: 580px; border: w;">
+  </iframe>
+
+  <!-- <img src="figures/eldiario.jpg" style="height: 600px; width: auto; object-fit: strech;" /> -->
 </div>
 
 </div>
@@ -974,7 +979,12 @@ adds exact nodes at breakpoints
 
 <!-- Right side: map -->
 <div style="flex: 1.7; text-align: center;">
-<img src="figures/coffee_and_transit.jpg" style="height: 100%; object-fit: contain;">
+  <iframe
+    src="html/coffee_and_transit/index.html"
+    style="width: 100%; height: 450px; border: w;">
+  </iframe>
+
+<!-- <img src="figures/coffee_and_transit.jpg" style="height: 100%; object-fit: contain;"> -->
 </div>
 </div>
 </div>
@@ -1004,7 +1014,7 @@ adds exact nodes at breakpoints
 <div style="flex: 1.7; text-align: center;">
 <iframe
   src="https://who-owns-mass.org/"
-  style="width: 100%; height: 400px; border: w;">
+  style="width: 100%; height: 450px; border: w;">
 </iframe>
 </div>
 </div>
@@ -1325,7 +1335,11 @@ adds exact nodes at breakpoints
 
 <!-- Right side: map -->
 <div style="flex: 2; text-align: center;">
-<img src="figures/egipt.jpg" style="height: 100%; object-fit: contain;">
+  <iframe
+    src="html/bbc/index.html"
+    style="width: 100%; height: 450px; border: w;">
+  </iframe>
+<!-- <img src="figures/egipt.jpg" style="height: 100%; object-fit: contain;"> -->
 </div>
 
 </div>

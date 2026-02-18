@@ -1,0 +1,31 @@
+:root {
+  /* PALETTE */
+  --dark-bg: #000000;
+  --dark-text: #ffffff;
+  --light-bg: #ffffff;
+  --light-text: #000000;
+
+  /* METADATA */
+  --presentation-title: "Mapping Accessibility, Perception and Equity globally";
+  --presentation-subtitle: "My Journey at MIT Media Lab City Science";
+  --presentation-title-short: "Mapping accessibility globally";
+  --presenter-name-full: "Miguel Ureña Pliego - Visiting Student - MIT Media Lab - City Science";
+  --presenter-name: "Miguel Ureña Pliego";
+  --font-spec: "Helvetica Regular 18/18";
+
+  /* LOGOS — DARK */
+  --l-inst-main-d: url("logos/ML_logo_dark.png");
+  --l-inst-icon-d: url("logos/ML_symbol_dark.png");
+  --l-dept-main-d: url("logos/CS_logo_dark.png");
+  --l-dept-icon-d: url("logos/CS_symbol_dark.png");
+
+  /* LOGOS — LIGHT */
+  --l-inst-main-l: url("logos/ML_logo_light.png");
+  --l-inst-icon-l: url("logos/ML_symbol_light.png");
+  --l-dept-main-l: url("logos/CS_logo_light.png");
+  --l-dept-icon-l: url("logos/CS_symbol_light.png");
+
+  --link-dark: #1e90ff; /* Light blue color for dark mode */
+  --link-light: #00008b; /* Dark blue color for light mode */
+}
+

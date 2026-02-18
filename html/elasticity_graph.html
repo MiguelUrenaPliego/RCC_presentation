@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Distance Decay</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #111827;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #container {
+      width: 430px;
+      height: 430px;
+      display: flex;
+      flex-direction: column;
+      padding: 8px;
+      box-sizing: border-box;
+      background: white;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .controls input[type="range"] {
+      flex: 1;
+      accent-color: #3b82f6;
+      height: 8px;
+    }
+
+    .value {
+      font-weight: 600;
+      font-size: 16px;
+      width: 50px;
+      text-align: right;
+    }
+
+    #plot {
+      flex: 1;
+      min-height: 0;
+    }
+
+    /* Larger axis fonts */
+    .plotly .xtick text, .plotly .ytick text {
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .plotly .axis-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container">
+  <div class="controls">
+    <input
+      id="elasticity"
+      type="range"
+      min="0.01"
+      max="2"
+      step="0.01"
+      value="0.5"
+    />
+    <div class="value" id="eValue">0.50</div>
+  </div>
+  <div id="plot"></div>
+</div>
+
+<script>
+const minDistance = 100;
+const xMax = 500;
+const n = 1000;
+
+function computeCurve(e) {
+  const x = [];
+  const y = [];
+  for (let i = 0; i < n; i++) {
+    const xi = minDistance + (xMax - minDistance) * i / (n - 1);
+    x.push(xi);
+    y.push(xi <= minDistance ? 1 : Math.exp(-e * (xi - minDistance) / minDistance));
+  }
+  return { x, y };
+}
+
+function draw(e) {
+  const { x, y } = computeCurve(e);
+
+  const trace = {
+    x,
+    y,
+    mode: "lines",
+    line: { width: 4, color: "#3b82f6" }
+  };
+
+  const layout = {
+    xaxis: {
+      title: "Distance (m)",
+      gridcolor: "#e5e7eb",
+      zeroline: false,
+      tickfont: {size: 12, color: '#111827'},
+      titlefont: {size: 14, color: '#111827'}
+    },
+    yaxis: {
+      title: "Quality",
+      range: [0, 1.05],
+      gridcolor: "#e5e7eb",
+      zeroline: false,
+      tickfont: {size: 12, color: '#111827'},
+      titlefont: {size: 14, color: '#111827'}
+    },
+    margin: { t: 10, r: 10, l: 50, b: 40 },
+    paper_bgcolor: "white",
+    plot_bgcolor: "white",
+  };
+
+  Plotly.react("plot", [trace], layout, { responsive: true });
+}
+
+const slider = document.getElementById("elasticity");
+const valueLabel = document.getElementById("eValue");
+
+slider.addEventListener("input", () => {
+  const e = parseFloat(slider.value);
+  valueLabel.textContent = e.toFixed(2);
+  draw(e);
+});
+
+// Initial render
+draw(parseFloat(slider.value));
+</script>
+
+</body>
+</html>
